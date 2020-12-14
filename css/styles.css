@@ -1,0 +1,134 @@
+:root {
+  --primary-text-color: #ffffff;
+  --totle-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background: #e5e5e5;
+  color: var(--totle-text-color);
+}
+.page-header {
+  background-color: #ffffff;
+}
+/* Логотип */
+
+.logo-header:hover .logo-header:focus {
+  color: var(--accent-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--totle-text-color);
+}
+
+/* Стилізація нвігації по cайті */
+.site-nav .link {
+  color: var(--totle-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+/* Стилізація по навігіції авторизації */
+.auth-nav {
+  color: var(--accent-color);
+}
+
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .number {
+  color: #757575;
+}
+
+/* Hero */
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  background: #2f303a;
+  color: var(--primary-text-color);
+}
+
+.hero-button {
+  color: var(--primary-text-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: var(--accent-color);
+}
+
+/* Преимущества */
+.features-list .title {
+  color: var(--totle-text-color);
+}
+.features-list {
+  list-style: none;
+  color: var(--totle-text-color);
+}
+.features-list .text {
+  color: #757575;
+}
+
+/* Чим займаємось */
+.work {
+  color: var(--totle-text-color);
+}
+.work .list {
+  list-style: none;
+}
+
+/* Наша команда */
+
+.team {
+  color: var(--totle-text-color);
+  background: #f5f4fa;
+}
+.team .list {
+  color: #757575;
+  background: #f5f4fa;
+}
+
+.team .list .name {
+  color: var(--totle-text-color);
+}
+
+/* Футер */
+.footer-list {
+  background: #2f303a;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+
+.footer-list .web {
+  color: #2196f3;
+}
+
+.footer-list .studio {
+  color: var(--primary-text-color);
+}
+
+.footer-adress {
+  color: var(--primary-text-color);
+}
+
+.footer-adress .mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress .telephon {
+  color: rgba(255, 255, 255, 0.6);
+}
