@@ -22,9 +22,12 @@ body {
 .logo-header {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -37,18 +40,23 @@ body {
 }
 
 /* Посилання */
+
+.list {
+  list-style: none;
+}
+
 .site-nav .link {
   color: var(--totle-text-color);
   font-family: Roboto;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .studio:hover,
+.site-nav .studio:focus {
   color: var(--accent-color);
 }
 
@@ -56,9 +64,6 @@ body {
   color: var(--accent-color);
 }
 
-.list {
-  list-style: none;
-}
 /* Навігація по авторизації на сайті */
 .auth-nav {
   color: var(--accent-color);
@@ -126,8 +131,7 @@ body {
 /* Преимущества */
 .features-list .title {
   color: var(--totle-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
@@ -139,12 +143,8 @@ body {
 }
 .features-list .text {
   color: var(--other-text-color);
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 1, 14;
-  /* or 171% */
-
+  line-height: 1, 71;
   letter-spacing: 0.03em;
 }
 
@@ -268,7 +268,7 @@ body {
   text-decoration: none;
 }
 
-/* Навігація свйту */
+/* Навігація сайту */
 site-nav .link {
   color: var(--totle-text-color);
   font-family: Roboto;
@@ -281,6 +281,11 @@ site-nav .link {
 /* Навігація по авторизації портфоліо */
 .portfolio-nav {
   list-style: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-nav .mail-portfolio {
@@ -300,14 +305,12 @@ site-nav .link {
 
 /* Кнопки  по сторінці портфоліо*/
 
-.button-portfolio {
+.content {
   list-style: none;
 }
-
-.button-portfolio .filter {
+.button .filter {
   background: #f5f4fa;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
@@ -319,11 +322,10 @@ site-nav .link {
   border-radius: 4px;
 }
 
-.button-portfolio .all {
+.button .all {
   color: var(--primary-text-color);
   background: var(--accent-color);
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
@@ -338,27 +340,20 @@ site-nav .link {
   border-color: var(--accent-color);
 }
 
-.button-portfolio .link:focus .button-portfolio .link:hover {
-  color: var(--accent-color);
+.portfolio-link {
+  list-style: none;
 }
 
-/* Секція посилань в портфоліо */
-.sectoin-portfolio .link {
-  list-style: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+.portfolio-link .title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
 }
-.sectoin-portfolio .text {
-  color: var(--other-text-color);
+.portfolio-link .text {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1, 87;
   /* identical to box height, or 187% */
@@ -374,6 +369,13 @@ site-nav .link {
 /* <!-- Логотип в футері --> */
 .logo-footer-port {
   text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
 }
 
 .footer-portfolio .web {
